@@ -1,0 +1,19 @@
+.sidebar{
+    margin-top: 30px;
+    width: 18%;
+}
+.App{
+    display:flex;
+}
+.content{
+    width:60rem;
+    margin-top: 17px;
+}
+.content>h4{
+    color: blue;
+}
+.rightside{
+    margin-left:40rem;
+    margin-top: -50px;
+    text-align: justify;
+}
