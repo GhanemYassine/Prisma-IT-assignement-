@@ -14,20 +14,32 @@
 }
 .rightside{
     display: flex;
-    margin-left:40rem;
+    margin-left:42rem;
     margin-top: -50px;
     text-align: justify;
 }
-.rightside>p{
+.right_side_inside{
+    display: flex;
+    margin-left:50rem;
+    margin-top: -50px;
+    text-align: justify;
+}
+.right_side_inside>p{
     margin-top: 0%;
+    color: royalblue;
 }
 
-.rightsidetwo{
+.right_side_two_inside{
     display: flex;
-    margin-left:40rem;
+    margin-left:50rem;
     margin-top: -50px;
     text-align: justify;
 }
-.rightsidetwo>p{
+.right_side_two_inside>p{
+    display: flex;
     margin-top: 0%;
+    color: royalblue;
+}
+.right_side_inside>p>span{
+    margin-bottom: 5px;
 }

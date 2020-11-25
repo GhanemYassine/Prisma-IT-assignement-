@@ -33,18 +33,18 @@ const Content = (props) => {
         <div className="content">
             <h4>Totale duur: {CHANNELS[props.whosIsActive].slides.reduce((acc, curr) => acc + curr.duration, 0)} min</h4>
             <div className="rightside">
-                <p style={{ marginLeft: '0.5rem' }}>  <PlayCircleOutlineIcon /> <span style={{ marginTop: '-2.5rem' }}>Preview Channel</span></p>
+                <p style={{ marginLeft: '0.5rem' }}>  <PlayCircleOutlineIcon /> <span style={{ marginBottom: '5px' }}>Preview Channel</span></p>
                 <p style={{ marginLeft: '0.5rem' }}>  <AddCircleOutlineIcon /> <span style={{ marginTop: '-2.5rem' }}> Add Channel</span></p>
 
             </div>
             <Divider />
             <h1 style={{ color: '#FF007F' }}> - {props.whosIsActive}</h1>
             <p> {CHANNELS[props.whosIsActive].slides.reduce((acc, curr) => acc + curr.duration, 0)} min</p>
-            <div className="rightside">
+            <div className="right_side_inside">
                 <EditIcon />
                 <DeleteIcon />
                 <VisibilityIcon />
-                <p style={{ marginLeft: '0.5rem' }}>  <CloudUploadIcon /> <span style={{ marginTop: '-2.5rem' }}> Publish</span></p>
+                <p style={{ marginLeft: '0.5rem' }}>  <CloudUploadIcon /> <span style={{ marginTop: '5px' }}> Publish</span></p>
             </div>
 
             <Divider />
@@ -83,11 +83,11 @@ const Content = (props) => {
             <div className="Content">
                 <h1 style={{ color: '#FF007F' }}> - {props.whosIsActive}</h1>
                 <p> {CHANNELS[props.whosIsActive].slides.reduce((acc, curr) => acc + curr.duration, 0)} min</p>
-                <div className="rightsidetwo">
+                <div className="right_side_two_inside">
                     <EditIcon />
                     <DeleteIcon />
                     <VisibilityIcon />
-                    <p style={{ marginLeft: '0.5rem' }}>  <CloudUploadIcon /> <span style={{ marginTop: '0' }}> Publish</span></p>
+                    <p style={{ marginLeft: '0.5rem' }}>  <CloudUploadIcon /> <span style={{ marginTop: '5px' }}> Publish</span></p>
                 </div>
             </div>
             <Divider />
