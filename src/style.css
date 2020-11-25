@@ -6,7 +6,7 @@
     display:flex;
 }
 .content{
-    width:60rem;
+    width:100rem;
     margin-top: 17px;
 }
 .content>h4{
@@ -14,13 +14,13 @@
 }
 .rightside{
     display: flex;
-    margin-left:42rem;
+    margin-left:80rem;
     margin-top: -50px;
     text-align: justify;
 }
 .right_side_inside{
     display: flex;
-    margin-left:50rem;
+    margin-left:87rem;
     margin-top: -50px;
     text-align: justify;
 }
@@ -31,7 +31,7 @@
 
 .right_side_two_inside{
     display: flex;
-    margin-left:50rem;
+    margin-left:87rem;
     margin-top: -50px;
     text-align: justify;
 }
