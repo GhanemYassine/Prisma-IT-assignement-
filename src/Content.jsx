@@ -83,8 +83,8 @@ const Content = (props) => {
             <Divider />
             <br />
             <div className="Content">
-                <h1 style={{ color: '#FF007F' }}> - {props.whosIsActive}</h1>
-                <p> {CHANNELS[props.whosIsActive].slides.reduce((acc, curr) => acc + curr.duration, 0)} min</p>
+                <h1 style={{ color: '#FF007F' }}> - {props.notActivated}</h1>
+                <p> {CHANNELS[props.notActivated].slides.reduce((acc, curr) => acc + curr.duration, 0)} min</p>
                 <div className="right_side_two_inside">
                     <EditIcon />
                     <DeleteIcon />
@@ -96,7 +96,7 @@ const Content = (props) => {
             <Divider />
             <br />
             <Grid container spacing={3}>
-                {CHANNELS[props.whosIsActive].slides.map(slide => {
+                {CHANNELS[props.notActivated].slides.map(slide => {
                     return (
                         <Grid item xs={3}>
                             <Slide name={slide.name} img={slide.img} duration={slide.duration} />
