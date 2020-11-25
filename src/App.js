@@ -5,7 +5,7 @@ import Sidebar from './Sidebar'
 
 function App() {
   const [who,setWho] = useState('Algemeen');
-  const [notActive,setNotActive]=useState('Cardiologie')
+  const [notActive,setNotActive]= useState('Cardiologie')
   const whoIsActive = (x) => {
     setWho(x)
   }
@@ -14,7 +14,7 @@ function App() {
   }
   return (
     <div className="App">
-      <Sidebar whoIsActive = {whoIsActive}/>
+      <Sidebar whoIsActive = {whoIsActive} notActivated = {notActivated}/>
       <Content whosIsActive = {who} notActivated = {notActive}/>
     </div>
   );

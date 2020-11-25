@@ -29,6 +29,7 @@ export default function Sidebar(props) {
     const handleClick = (who) => {
         setwhoClicked(who);
         props.whoIsActive(who);
+        props.notActivated(who === 'Algemeen' ? 'Cardiologie' : 'Algemeen')
     };
 
     return (
